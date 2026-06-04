@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual env
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Model weights and checkpoints
+model/clip/*.pt
+model/clip/*.pth
+result/checkpoints/
+
+# Training / inference outputs
+result/log/
+result/vis/
+zhe_8_result/
+*.jsonl
+*.npy
+
+# Runtime temp
+*.tmp
+*.swp

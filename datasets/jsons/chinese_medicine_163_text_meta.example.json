@@ -1,0 +1,32 @@
+{
+  "三七": {
+    "pinyin": "san qi",
+    "english_alias": "Notoginseng",
+    "morphology_en": "powdered root materials",
+    "morphology_zh": "粉末状根类药材"
+  },
+  "丹参": {
+    "pinyin": "dan shen",
+    "english_alias": "Danshen",
+    "morphology_en": "root pieces",
+    "morphology_zh": "根部切块"
+  },
+  "人参": {
+    "pinyin": "ren shen",
+    "english_alias": "Ginseng",
+    "morphology_en": "root materials",
+    "morphology_zh": "根类药材"
+  },
+  "人参切片": {
+    "pinyin": "ren shen qie pian",
+    "english_alias": "Sliced Ginseng",
+    "morphology_en": "root slices",
+    "morphology_zh": "根部切片"
+  },
+  "白术": {
+    "pinyin": "bai zhu",
+    "english_alias": "Atractylodes Macrocephala",
+    "morphology_en": "rhizome slices",
+    "morphology_zh": "根茎切片"
+  }
+}

@@ -1,0 +1,980 @@
+{
+  "三七": {
+    "pinyin": "san qi",
+    "english_alias": "San Qi",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "丹参": {
+    "pinyin": "dan shen",
+    "english_alias": "Dan Shen",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "乌梅": {
+    "pinyin": "wu mei",
+    "english_alias": "Wu Mei",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "五加皮": {
+    "pinyin": "wu jia pi",
+    "english_alias": "Wu Jia Pi",
+    "morphology_en": "barks/peels",
+    "morphology_zh": "皮类"
+  },
+  "五味子": {
+    "pinyin": "wu wei zi",
+    "english_alias": "Wu Wei Zi",
+    "morphology_en": "seeds",
+    "morphology_zh": "种子"
+  },
+  "五灵脂": {
+    "pinyin": "wu ling zhi",
+    "english_alias": "Wu Ling Zhi",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "人参": {
+    "pinyin": "ren shen",
+    "english_alias": "Ren Shen",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "人参切片": {
+    "pinyin": "ren shen qie pian",
+    "english_alias": "Ren Shen Qie Pian",
+    "morphology_en": "slices",
+    "morphology_zh": "切片"
+  },
+  "仙鹤草": {
+    "pinyin": "xian he cao",
+    "english_alias": "Xian He Cao",
+    "morphology_en": "whole herbs",
+    "morphology_zh": "全草"
+  },
+  "何首乌": {
+    "pinyin": "he shou wu",
+    "english_alias": "He Shou Wu",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "佛手": {
+    "pinyin": "fo shou",
+    "english_alias": "Fo Shou",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "佩兰": {
+    "pinyin": "pei lan",
+    "english_alias": "Pei Lan",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "侧柏叶": {
+    "pinyin": "ce bai ye",
+    "english_alias": "Ce Bai Ye",
+    "morphology_en": "leaves",
+    "morphology_zh": "叶片"
+  },
+  "僵蚕": {
+    "pinyin": "jiang can",
+    "english_alias": "Jiang Can",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "党参": {
+    "pinyin": "dang shen",
+    "english_alias": "Dang Shen",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "全蝎": {
+    "pinyin": "quan xie",
+    "english_alias": "Quan Xie",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "决明子": {
+    "pinyin": "jue ming zi",
+    "english_alias": "Jue Ming Zi",
+    "morphology_en": "seeds",
+    "morphology_zh": "种子"
+  },
+  "刺史": {
+    "pinyin": "ci shi",
+    "english_alias": "Ci Shi",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "前胡": {
+    "pinyin": "qian hu",
+    "english_alias": "Qian Hu",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "北沙参块": {
+    "pinyin": "bei sha shen kuai",
+    "english_alias": "Bei Sha Shen Kuai",
+    "morphology_en": "chunks",
+    "morphology_zh": "块状"
+  },
+  "北沙参条": {
+    "pinyin": "bei sha shen tiao",
+    "english_alias": "Bei Sha Shen Tiao",
+    "morphology_en": "strips",
+    "morphology_zh": "条状"
+  },
+  "升麻": {
+    "pinyin": "sheng ma",
+    "english_alias": "Sheng Ma",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "半夏": {
+    "pinyin": "ban xia",
+    "english_alias": "Ban Xia",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "厚朴": {
+    "pinyin": "hou po",
+    "english_alias": "Hou Po",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "合欢皮": {
+    "pinyin": "he huan pi",
+    "english_alias": "He Huan Pi",
+    "morphology_en": "barks/peels",
+    "morphology_zh": "皮类"
+  },
+  "土鳖虫": {
+    "pinyin": "tu bie chong",
+    "english_alias": "Tu Bie Chong",
+    "morphology_en": "insect-derived materials",
+    "morphology_zh": "虫类"
+  },
+  "地榆": {
+    "pinyin": "di yu",
+    "english_alias": "Di Yu",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "地骨皮": {
+    "pinyin": "di gu pi",
+    "english_alias": "Di Gu Pi",
+    "morphology_en": "barks/peels",
+    "morphology_zh": "皮类"
+  },
+  "地龙": {
+    "pinyin": "di long",
+    "english_alias": "Di Long",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "墨旱莲": {
+    "pinyin": "mo han lian",
+    "english_alias": "Mo Han Lian",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "夏枯草": {
+    "pinyin": "xia ku cao",
+    "english_alias": "Xia Ku Cao",
+    "morphology_en": "whole herbs",
+    "morphology_zh": "全草"
+  },
+  "大腹皮": {
+    "pinyin": "da fu pi",
+    "english_alias": "Da Fu Pi",
+    "morphology_en": "barks/peels",
+    "morphology_zh": "皮类"
+  },
+  "大血藤": {
+    "pinyin": "da xue teng",
+    "english_alias": "Da Xue Teng",
+    "morphology_en": "vine stems",
+    "morphology_zh": "藤类"
+  },
+  "大青叶": {
+    "pinyin": "da qing ye",
+    "english_alias": "Da Qing Ye",
+    "morphology_en": "leaves",
+    "morphology_zh": "叶片"
+  },
+  "天冬": {
+    "pinyin": "tian dong",
+    "english_alias": "Tian Dong",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "天南星": {
+    "pinyin": "tian nan xing",
+    "english_alias": "Tian Nan Xing",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "天葵子": {
+    "pinyin": "tian kui zi",
+    "english_alias": "Tian Kui Zi",
+    "morphology_en": "seeds",
+    "morphology_zh": "种子"
+  },
+  "天麻块": {
+    "pinyin": "tian ma kuai",
+    "english_alias": "Tian Ma Kuai",
+    "morphology_en": "chunks",
+    "morphology_zh": "块状"
+  },
+  "天麻片": {
+    "pinyin": "tian ma pian",
+    "english_alias": "Tian Ma Pian",
+    "morphology_en": "slices",
+    "morphology_zh": "片状"
+  },
+  "女贞子": {
+    "pinyin": "nv zhen zi",
+    "english_alias": "Nv Zhen Zi",
+    "morphology_en": "seeds",
+    "morphology_zh": "种子"
+  },
+  "姜黄": {
+    "pinyin": "jiang huang",
+    "english_alias": "Jiang Huang",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "射干": {
+    "pinyin": "ye gan",
+    "english_alias": "Ye Gan",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "小茴香": {
+    "pinyin": "xiao hui xiang",
+    "english_alias": "Xiao Hui Xiang",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "山楂": {
+    "pinyin": "shan zha",
+    "english_alias": "Shan Zha",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "山茱萸": {
+    "pinyin": "shan zhu yu",
+    "english_alias": "Shan Zhu Yu",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "山药": {
+    "pinyin": "shan yao",
+    "english_alias": "Shan Yao",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "巴戟天": {
+    "pinyin": "ba ji tian",
+    "english_alias": "Ba Ji Tian",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "干姜": {
+    "pinyin": "gan jiang",
+    "english_alias": "Gan Jiang",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "木香": {
+    "pinyin": "mu xiang",
+    "english_alias": "Mu Xiang",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "杜仲": {
+    "pinyin": "du zhong",
+    "english_alias": "Du Zhong",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "板蓝根": {
+    "pinyin": "ban lan gen",
+    "english_alias": "Ban Lan Gen",
+    "morphology_en": "roots",
+    "morphology_zh": "根部"
+  },
+  "枳壳条": {
+    "pinyin": "zhi ke tiao",
+    "english_alias": "Zhi Ke Tiao",
+    "morphology_en": "shells",
+    "morphology_zh": "壳类"
+  },
+  "枳壳片": {
+    "pinyin": "zhi ke pian",
+    "english_alias": "Zhi Ke Pian",
+    "morphology_en": "slices",
+    "morphology_zh": "片状"
+  },
+  "枳实": {
+    "pinyin": "zhi shi",
+    "english_alias": "Zhi Shi",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "枸杞子": {
+    "pinyin": "gou qi zi",
+    "english_alias": "Gou Qi Zi",
+    "morphology_en": "seeds",
+    "morphology_zh": "种子"
+  },
+  "柏子仁": {
+    "pinyin": "bai zi ren",
+    "english_alias": "Bai Zi Ren",
+    "morphology_en": "seeds",
+    "morphology_zh": "种子"
+  },
+  "柴胡": {
+    "pinyin": "chai hu",
+    "english_alias": "Chai Hu",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "桃仁": {
+    "pinyin": "tao ren",
+    "english_alias": "Tao Ren",
+    "morphology_en": "kernels",
+    "morphology_zh": "仁"
+  },
+  "桑椹": {
+    "pinyin": "sang shen",
+    "english_alias": "Sang Shen",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "桑螵蛸": {
+    "pinyin": "sang piao shao",
+    "english_alias": "Sang Piao Shao",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "槐花": {
+    "pinyin": "huai hua",
+    "english_alias": "Huai Hua",
+    "morphology_en": "flowers",
+    "morphology_zh": "花朵"
+  },
+  "水牛角": {
+    "pinyin": "shui niu jiao",
+    "english_alias": "Shui Niu Jiao",
+    "morphology_en": "horn-like materials",
+    "morphology_zh": "角类"
+  },
+  "水红花子": {
+    "pinyin": "shui hong hua zi",
+    "english_alias": "Shui Hong Hua Zi",
+    "morphology_en": "seeds",
+    "morphology_zh": "种子"
+  },
+  "沉香": {
+    "pinyin": "chen xiang",
+    "english_alias": "Chen Xiang",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "泽兰": {
+    "pinyin": "ze lan",
+    "english_alias": "Ze Lan",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "浙贝母": {
+    "pinyin": "zhe bei mu",
+    "english_alias": "Zhe Bei Mu",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "火麻仁": {
+    "pinyin": "huo ma ren",
+    "english_alias": "Huo Ma Ren",
+    "morphology_en": "kernels",
+    "morphology_zh": "仁"
+  },
+  "灵芝": {
+    "pinyin": "ling zhi",
+    "english_alias": "Ling Zhi",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "炮姜": {
+    "pinyin": "pao jiang",
+    "english_alias": "Pao Jiang",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "牛膝": {
+    "pinyin": "niu xi",
+    "english_alias": "Niu Xi",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "牡丹皮": {
+    "pinyin": "mu dan pi",
+    "english_alias": "Mu Dan Pi",
+    "morphology_en": "barks/peels",
+    "morphology_zh": "皮类"
+  },
+  "牡蛎": {
+    "pinyin": "mu li",
+    "english_alias": "Mu Li",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "玉竹条": {
+    "pinyin": "yu zhu tiao",
+    "english_alias": "Yu Zhu Tiao",
+    "morphology_en": "strips",
+    "morphology_zh": "条状"
+  },
+  "玉竹片": {
+    "pinyin": "yu zhu pian",
+    "english_alias": "Yu Zhu Pian",
+    "morphology_en": "slices",
+    "morphology_zh": "片状"
+  },
+  "珍珠母": {
+    "pinyin": "zhen zhu mu",
+    "english_alias": "Zhen Zhu Mu",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "甘草": {
+    "pinyin": "gan cao",
+    "english_alias": "Gan Cao",
+    "morphology_en": "whole herbs",
+    "morphology_zh": "全草"
+  },
+  "白头翁": {
+    "pinyin": "bai tou weng",
+    "english_alias": "Bai Tou Weng",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "白扁豆": {
+    "pinyin": "bai bian dou",
+    "english_alias": "Bai Bian Dou",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "白术": {
+    "pinyin": "bai zhu",
+    "english_alias": "Bai Zhu",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "白矾": {
+    "pinyin": "bai fan",
+    "english_alias": "Bai Fan",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "白芍": {
+    "pinyin": "bai shao",
+    "english_alias": "Bai Shao",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "白花蛇舌草": {
+    "pinyin": "bai hua she she cao",
+    "english_alias": "Bai Hua She She Cao",
+    "morphology_en": "flowers",
+    "morphology_zh": "花朵"
+  },
+  "白茅根": {
+    "pinyin": "bai mao gen",
+    "english_alias": "Bai Mao Gen",
+    "morphology_en": "roots",
+    "morphology_zh": "根部"
+  },
+  "白蔻": {
+    "pinyin": "bai kou",
+    "english_alias": "Bai Kou",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "百合": {
+    "pinyin": "bai he",
+    "english_alias": "Bai He",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "百部": {
+    "pinyin": "bai bu",
+    "english_alias": "Bai Bu",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "益母草": {
+    "pinyin": "yi mu cao",
+    "english_alias": "Yi Mu Cao",
+    "morphology_en": "whole herbs",
+    "morphology_zh": "全草"
+  },
+  "知母": {
+    "pinyin": "zhi mu",
+    "english_alias": "Zhi Mu",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "石斛": {
+    "pinyin": "shi hu",
+    "english_alias": "Shi Hu",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "石膏": {
+    "pinyin": "shi gao",
+    "english_alias": "Shi Gao",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "石菖蒲": {
+    "pinyin": "shi chang pu",
+    "english_alias": "Shi Chang Pu",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "砂仁": {
+    "pinyin": "sha ren",
+    "english_alias": "Sha Ren",
+    "morphology_en": "kernels",
+    "morphology_zh": "仁"
+  },
+  "神曲": {
+    "pinyin": "shen qu",
+    "english_alias": "Shen Qu",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "穿山甲": {
+    "pinyin": "chuan shan jia",
+    "english_alias": "Chuan Shan Jia",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "穿心莲": {
+    "pinyin": "chuan xin lian",
+    "english_alias": "Chuan Xin Lian",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "竹茹": {
+    "pinyin": "zhu ru",
+    "english_alias": "Zhu Ru",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "紫花地丁": {
+    "pinyin": "zi hua di ding",
+    "english_alias": "Zi Hua Di Ding",
+    "morphology_en": "flowers",
+    "morphology_zh": "花朵"
+  },
+  "紫草": {
+    "pinyin": "zi cao",
+    "english_alias": "Zi Cao",
+    "morphology_en": "whole herbs",
+    "morphology_zh": "全草"
+  },
+  "紫菀": {
+    "pinyin": "zi wan",
+    "english_alias": "Zi Wan",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "红花": {
+    "pinyin": "hong hua",
+    "english_alias": "Hong Hua",
+    "morphology_en": "flowers",
+    "morphology_zh": "花朵"
+  },
+  "红蔻": {
+    "pinyin": "hong kou",
+    "english_alias": "Hong Kou",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "细辛": {
+    "pinyin": "xi xin",
+    "english_alias": "Xi Xin",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "络石藤": {
+    "pinyin": "luo shi teng",
+    "english_alias": "Luo Shi Teng",
+    "morphology_en": "vine stems",
+    "morphology_zh": "藤类"
+  },
+  "续断": {
+    "pinyin": "xu duan",
+    "english_alias": "Xu Duan",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "罗汉果": {
+    "pinyin": "luo han guo",
+    "english_alias": "Luo Han Guo",
+    "morphology_en": "fruits",
+    "morphology_zh": "果实"
+  },
+  "羌活": {
+    "pinyin": "qiang huo",
+    "english_alias": "Qiang Huo",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "肉桂": {
+    "pinyin": "rou gui",
+    "english_alias": "Rou Gui",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "肉苁蓉根": {
+    "pinyin": "rou cong rong gen",
+    "english_alias": "Rou Cong Rong Gen",
+    "morphology_en": "roots",
+    "morphology_zh": "根部"
+  },
+  "肉苁蓉片": {
+    "pinyin": "rou cong rong pian",
+    "english_alias": "Rou Cong Rong Pian",
+    "morphology_en": "slices",
+    "morphology_zh": "片状"
+  },
+  "肉豆蔻": {
+    "pinyin": "rou dou kou",
+    "english_alias": "Rou Dou Kou",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "艾叶": {
+    "pinyin": "ai ye",
+    "english_alias": "Ai Ye",
+    "morphology_en": "leaves",
+    "morphology_zh": "叶片"
+  },
+  "苍术": {
+    "pinyin": "cang zhu",
+    "english_alias": "Cang Zhu",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "苦参": {
+    "pinyin": "ku shen",
+    "english_alias": "Ku Shen",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "茯苓": {
+    "pinyin": "fu ling",
+    "english_alias": "Fu Ling",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "茵陈": {
+    "pinyin": "yin chen",
+    "english_alias": "Yin Chen",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "荆芥": {
+    "pinyin": "jing jie",
+    "english_alias": "Jing Jie",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "草寇": {
+    "pinyin": "cao kou",
+    "english_alias": "Cao Kou",
+    "morphology_en": "whole herbs",
+    "morphology_zh": "全草"
+  },
+  "草果": {
+    "pinyin": "cao guo",
+    "english_alias": "Cao Guo",
+    "morphology_en": "fruits",
+    "morphology_zh": "果实"
+  },
+  "荔枝核": {
+    "pinyin": "li zhi he",
+    "english_alias": "Li Zhi He",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "莱菔子": {
+    "pinyin": "lai fu zi",
+    "english_alias": "Lai Fu Zi",
+    "morphology_en": "seeds",
+    "morphology_zh": "种子"
+  },
+  "莲子心": {
+    "pinyin": "lian zi xin",
+    "english_alias": "Lian Zi Xin",
+    "morphology_en": "seeds",
+    "morphology_zh": "种子"
+  },
+  "菟丝子": {
+    "pinyin": "tu si zi",
+    "english_alias": "Tu Si Zi",
+    "morphology_en": "seeds",
+    "morphology_zh": "种子"
+  },
+  "葛根": {
+    "pinyin": "ge gen",
+    "english_alias": "Ge Gen",
+    "morphology_en": "roots",
+    "morphology_zh": "根部"
+  },
+  "蒲公英": {
+    "pinyin": "pu gong ying",
+    "english_alias": "Pu Gong Ying",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "蒲黄": {
+    "pinyin": "pu huang",
+    "english_alias": "Pu Huang",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "薏苡仁": {
+    "pinyin": "yi yi ren",
+    "english_alias": "Yi Yi Ren",
+    "morphology_en": "kernels",
+    "morphology_zh": "仁"
+  },
+  "虎杖": {
+    "pinyin": "hu zhang",
+    "english_alias": "Hu Zhang",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "虫草": {
+    "pinyin": "chong cao",
+    "english_alias": "Chong Cao",
+    "morphology_en": "whole herbs",
+    "morphology_zh": "全草"
+  },
+  "蛇床子": {
+    "pinyin": "she chuang zi",
+    "english_alias": "She Chuang Zi",
+    "morphology_en": "seeds",
+    "morphology_zh": "种子"
+  },
+  "蝉蜕": {
+    "pinyin": "chan tui",
+    "english_alias": "Chan Tui",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "覆盆子": {
+    "pinyin": "fu pen zi",
+    "english_alias": "Fu Pen Zi",
+    "morphology_en": "seeds",
+    "morphology_zh": "种子"
+  },
+  "谷芽": {
+    "pinyin": "gu ya",
+    "english_alias": "Gu Ya",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "贯众": {
+    "pinyin": "guan zhong",
+    "english_alias": "Guan Zhong",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "赤石脂": {
+    "pinyin": "chi shi zhi",
+    "english_alias": "Chi Shi Zhi",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "赤芍": {
+    "pinyin": "chi shao",
+    "english_alias": "Chi Shao",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "路路通": {
+    "pinyin": "lu lu tong",
+    "english_alias": "Lu Lu Tong",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "辛夷": {
+    "pinyin": "xin yi",
+    "english_alias": "Xin Yi",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "远志": {
+    "pinyin": "yuan zhi",
+    "english_alias": "Yuan Zhi",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "连翘": {
+    "pinyin": "lian qiao",
+    "english_alias": "Lian Qiao",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "通草": {
+    "pinyin": "tong cao",
+    "english_alias": "Tong Cao",
+    "morphology_en": "whole herbs",
+    "morphology_zh": "全草"
+  },
+  "郁金": {
+    "pinyin": "yu jin",
+    "english_alias": "Yu Jin",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "酸枣仁": {
+    "pinyin": "suan zao ren",
+    "english_alias": "Suan Zao Ren",
+    "morphology_en": "kernels",
+    "morphology_zh": "仁"
+  },
+  "野菊花": {
+    "pinyin": "ye ju hua",
+    "english_alias": "Ye Ju Hua",
+    "morphology_en": "flowers",
+    "morphology_zh": "花朵"
+  },
+  "金钱草": {
+    "pinyin": "jin qian cao",
+    "english_alias": "Jin Qian Cao",
+    "morphology_en": "whole herbs",
+    "morphology_zh": "全草"
+  },
+  "金银花": {
+    "pinyin": "jin yin hua",
+    "english_alias": "Jin Yin Hua",
+    "morphology_en": "flowers",
+    "morphology_zh": "花朵"
+  },
+  "钩藤": {
+    "pinyin": "gou teng",
+    "english_alias": "Gou Teng",
+    "morphology_en": "vine stems",
+    "morphology_zh": "藤类"
+  },
+  "防风": {
+    "pinyin": "fang feng",
+    "english_alias": "Fang Feng",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "阿胶": {
+    "pinyin": "e jiao",
+    "english_alias": "E Jiao",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "附子": {
+    "pinyin": "fu zi",
+    "english_alias": "Fu Zi",
+    "morphology_en": "seeds",
+    "morphology_zh": "种子"
+  },
+  "陈皮": {
+    "pinyin": "chen pi",
+    "english_alias": "Chen Pi",
+    "morphology_en": "barks/peels",
+    "morphology_zh": "皮类"
+  },
+  "青蒿": {
+    "pinyin": "qing hao",
+    "english_alias": "Qing Hao",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "首乌藤块": {
+    "pinyin": "shou wu teng kuai",
+    "english_alias": "Shou Wu Teng Kuai",
+    "morphology_en": "vine stems",
+    "morphology_zh": "藤类"
+  },
+  "首乌藤片": {
+    "pinyin": "shou wu teng pian",
+    "english_alias": "Shou Wu Teng Pian",
+    "morphology_en": "slices",
+    "morphology_zh": "片状"
+  },
+  "香附": {
+    "pinyin": "xiang fu",
+    "english_alias": "Xiang Fu",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "鳖甲": {
+    "pinyin": "bie jia",
+    "english_alias": "Bie Jia",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "鸡内金": {
+    "pinyin": "ji nei jin",
+    "english_alias": "Ji Nei Jin",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "鸡血藤": {
+    "pinyin": "ji xue teng",
+    "english_alias": "Ji Xue Teng",
+    "morphology_en": "vine stems",
+    "morphology_zh": "藤类"
+  },
+  "麦冬": {
+    "pinyin": "mai dong",
+    "english_alias": "Mai Dong",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "麦芽": {
+    "pinyin": "mai ya",
+    "english_alias": "Mai Ya",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "黄柏": {
+    "pinyin": "huang bai",
+    "english_alias": "Huang Bai",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "黄精": {
+    "pinyin": "huang jing",
+    "english_alias": "Huang Jing",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "黄芩": {
+    "pinyin": "huang qin",
+    "english_alias": "Huang Qin",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  },
+  "龙骨": {
+    "pinyin": "long gu",
+    "english_alias": "Long Gu",
+    "morphology_en": "medicinal materials",
+    "morphology_zh": "干燥药材"
+  }
+}
