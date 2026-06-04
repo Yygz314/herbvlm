@@ -14,15 +14,15 @@ HerbVLM 以 CLIP 为基础，在中药材识别任务上引入了针对中药文
 
 ### 1) HerbVLM 总体结构
 
-![HerbVLM Overall](assets/HerbVLM.jpg)
+![HerbVLM Overall](./assets/HerbVLM.jpg)
 
 ### 2) TKPM 文本层知识提示模块
 
-![TKPM Module](assets/TKPM.jpg)
+![TKPM Module](./assets/TKPM.jpg)
 
 ### 3) HIA 图像层融合机制
 
-![HIA Module](assets/HIA.jpg)
+![HIA Module](./assets/HIA.jpg)
 
 ## 当前仓库
 
