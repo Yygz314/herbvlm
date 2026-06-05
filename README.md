@@ -2,13 +2,15 @@
 
 一种图文知识增强的中药材鉴别模型。
 
+> 本仓库仅发布论文对应的推理代码、模型结构和类别提示信息，不包含训练入口、训练损失、优化器、数据划分或训练日志生成代码。
+
 ## 模型简介
 
-HerbVLM 以 CLIP 为基础，在中药材识别任务上引入了针对中药文本提示与特征融合的改进模块，核心目标是提升细粒度中药材类别的识别准确率与鲁棒性。
+HerbVLM 以 CLIP 为基础，在中药材识别任务中引入面向中药文本提示与图像特征融合的改进模块，用于提升细粒度中药材类别识别的准确率与鲁棒性。
 
-- 视觉分支（HIA）：提取药材图像特征
-- 文本分支(TKPM)：使用中药类别名称与元信息提示构建文本特征
-- 融合策略：通过适配器与动态融合机制完成最终分类
+- 视觉分支（HIA）：提取并融合多层图像特征。
+- 文本分支（TKPM）：使用中药类别名称、拼音、英文别名和形态信息构建文本提示。
+- 动态融合：结合 CLIP 相似度、适配器分支和样本级融合权重输出最终预测。
 
 ## 模型结构图
 
@@ -24,20 +26,17 @@ HerbVLM 以 CLIP 为基础，在中药材识别任务上引入了针对中药文
 
 ![HIA Module](./assets/HIA.jpg)
 
-## 当前仓库
+## 仓库结构
 
 ```text
 HerbVLM/
-├── clip_herbvlm/                         # 模型核心实现
-├── datasets/
-│   ├── chinese_medicine_163.py       # 中药材数据集定义
-│   ├── utils.py
-│   └── jsons/
-│       ├── chinese_medicine_163_text_meta.json
-│       └── chinese_medicine_163_text_meta.example.json
+├── herbvlm_infer.py                  # 推理入口
+├── clip_herbvlm/                     # HerbVLM/CLIP 模型结构与 tokenizer
+├── datasets/jsons/
+│   ├── chinese_medicine_163_text_meta.json
+│   └── chinese_medicine_163_text_meta.example.json
 ├── assets/                           # README 图示
-├── model/clip/README.md              # 预训练权重说明
-├── herbvlm_train.py                      # 训练入口
+├── model/clip/README.md              # CLIP 预训练权重说明
 ├── requirements.txt
 └── .gitignore
 ```
@@ -52,36 +51,63 @@ pip install -U pip
 pip install -r requirements.txt
 ```
 
-## 数据组织
+Windows PowerShell:
 
-设置 `HERBVLM_DATA_ROOT` 后，数据目录需满足：
-
-```text
-$HERBVLM_DATA_ROOT/
-└── Chinese-Medicine-163/
-    ├── train/
-    └── test/
+```powershell
+cd HerbVLM
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -U pip
+pip install -r requirements.txt
 ```
 
-## 训练
+## 权重准备
+
+推理需要两类权重：
+
+1. CLIP 预训练权重：首次运行会自动下载到 `--model-cache-dir`，也可以手动放到 `model/clip/`。
+2. HerbVLM 训练后 checkpoint：请将论文发布的 `best.pth` 或等价 checkpoint 放在本地路径，并通过 `--checkpoint` 指定。
+
+`.gitignore` 默认忽略 `*.pt`、`*.pth` 等权重文件，避免大文件误提交。
+
+## 单张图片推理
 
 ```bash
-export HERBVLM_DATA_ROOT=/path/to/your/data
-export HERBVLM_MODEL_CACHE_DIR=./model/clip
-export HERBVLM_TARGET_DATASET=chinese_medicine_163
-export HERBVLM_MODEL_VARIANT=herbvlm
-export HERBVLM_BACKBONE=ViT-B/16
-export HERBVLM_EPOCHS=20
-export HERBVLM_BATCH_SIZE=64
-export HERBVLM_SHOTS=-1
-export HERBVLM_TEXT_PROMPT_MODE=multi
-export HERBVLM_TEXT_META_JSON=datasets/jsons/chinese_medicine_163_text_meta.json
-
-python herbvlm_train.py
+python herbvlm_infer.py \
+  --image path/to/herb.jpg \
+  --checkpoint path/to/best.pth \
+  --backbone ViT-B/16 \
+  --model-cache-dir ./model/clip \
+  --meta-json datasets/jsons/chinese_medicine_163_text_meta.json \
+  --branch tot \
+  --topk 5
 ```
 
-## 输出
+如果只想运行 CLIP zero-shot 分支进行代码连通性检查，可以不提供 HerbVLM checkpoint：
 
-- 日志：`result/log/`
-- 检查点：`result/checkpoints/`
-- 可视化：`result/vis/`
+```bash
+python herbvlm_infer.py --image path/to/herb.jpg --branch clip --topk 5
+```
+
+## 文件夹批量推理
+
+```bash
+python herbvlm_infer.py \
+  --image-dir path/to/images \
+  --recursive \
+  --checkpoint path/to/best.pth \
+  --output result/predictions.csv
+```
+
+常用参数：
+
+- `--branch`: 预测分支，可选 `clip`、`mlp`、`ada`、`tot`，默认 `tot`。
+- `--prompt-mode`: 文本提示模式，可选 `baseline` 或 `multi`，默认 `multi`。
+- `--tkpm-mode`: 多提示聚合方式，默认 `auto`。
+- `--text-cache`: 可选文本特征缓存路径，用于加速重复推理。
+- `--device`: 推理设备，默认自动选择 CUDA 或 CPU。
+
+## 类别与提示信息
+
+`datasets/jsons/chinese_medicine_163_text_meta.json` 保存 163 个类别的类别顺序和 TKPM 元信息。checkpoint 的输出维度必须与该 JSON 中的类别数量和顺序一致。
+

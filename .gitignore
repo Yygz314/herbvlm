@@ -17,7 +17,8 @@ model/clip/*.pt
 model/clip/*.pth
 result/checkpoints/
 
-# Training / inference outputs
+# Runtime outputs
+result/
 result/log/
 result/vis/
 zhe_8_result/
